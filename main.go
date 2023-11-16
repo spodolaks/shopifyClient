@@ -7,6 +7,7 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
+	"github.com/spodolaks/shopifyGo/network"
 )
 
 func main() {
