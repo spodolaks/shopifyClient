@@ -1,5 +1,9 @@
 package models
 
+type Response struct {
+	Products []Product `json:"products"`
+}
+
 type Product struct {
     ID                int64       `json:"id"`
     Title             string      `json:"title"`
