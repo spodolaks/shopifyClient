@@ -1,4 +1,4 @@
-module github.com/spodolaks/shopifyGo
+module github.com/spodolaks/shopifyClient
 
 go 1.21.4
 

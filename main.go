@@ -17,6 +17,6 @@ func main() {
 	}
   
 	token := os.Getenv("TOKEN")
-	network.Init();
+	network.Initialize();
 	fmt.Println(token)
 }
