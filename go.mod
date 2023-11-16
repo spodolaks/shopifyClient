@@ -1,4 +1,4 @@
-module github/spodolaks/shopifyGo
+module github.com/spodolaks/shopifyGo
 
 go 1.21.4
 
