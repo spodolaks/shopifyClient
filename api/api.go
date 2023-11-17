@@ -8,4 +8,6 @@ import (
 func RegisterRoutes(r *gin.Engine) {
 	productHandler := handlers.NewProductHandler()
 	r.GET("/products", productHandler.Fetch)
+	r.PUT("/products/:id", productHandler.UpdateProduct)
+
 }
